@@ -14,6 +14,5 @@ CatBoost
 ## Evaluation Metric
 roc_auc_score
 
-## Models
-Aim: To help Kowope Mart to identify customers who are worthy of credit card, lines and loans by identifying which customers are at risk of defaulting in payment of loan.
-Objective: To develop a predictive model that determines the likelihood of a customer defaulting loan payment.
+## Approach
+The solution was built by combining two models i.e. Catboost and Xgboost. Date features were extracted to improve model performance. There is need for a detailed feature engineering. We used StratifiedKFold to ensure each fold is a good representative of the whole dataset. 
